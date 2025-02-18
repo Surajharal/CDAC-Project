@@ -1,0 +1,5 @@
+-> hadoop fs -mkdir -p /user/sunbeam/ecommerce_data/input
+
+-> hadoop fs -put /home/sunbeam/Desktop/Big_data_Project/2019-Oct.csv  /user/sunbeam/ecommerce_data/input
+
+-> hadoop fs -ls /user/sunbeam/ecommerce_data/input
